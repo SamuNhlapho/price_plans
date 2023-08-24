@@ -1,0 +1,69 @@
+body {
+    background-color: purple;
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    padding: 0;
+    color: white;
+}
+
+[x-cloak] { display: none; }
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.messages {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+button {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: gold;
+    border-radius: 0.5rem;
+    color: #000000;
+    border: 2px solid white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    padding: 20px;
+}

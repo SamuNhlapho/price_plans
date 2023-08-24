@@ -1,0 +1,44 @@
+# All Plans
+GET http://localhost:4011/api/price_plans/
+
+### Bill Calculation
+POST http://localhost:4011/api/phonebill/
+Content-Type: application/json
+
+{
+    "plan_name": "call 201",
+    "actions" : "sms,call,sms"
+}
+
+
+###
+GET http://localhost:4011/api/phonebill/
+
+### Create Plans
+POST http://localhost:4011/api/price_plan/create
+Content-Type: application/json
+
+{
+    "plan_name": "sms kick 100",
+    "call_price" : 2.65,
+    "sms_price": 0.45
+}
+
+### Update Plans
+POST http://localhost:4011/api/price_plan/update
+Content-Type: application/json
+
+{
+    "plan_name": "sms kick 100",
+    "call_price" : 5.65,
+    "sms_price": 2.45,
+    "id": 9
+}
+
+### Delete Plans
+POST http://localhost:4011/api/price_plan/delete
+Content-Type: application/json
+
+{
+    "id": 11
+}
